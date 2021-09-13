@@ -3,16 +3,7 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-.search-field {
-   border-radius: 2px; 
-  padding: 20px;
-  margin-left: 300px; 
-}
 
-.search-button {
-   color: white;
-   background-color: green;
-}
 /* all product part  */
 #all-products {
   display: grid;
@@ -28,9 +19,10 @@ body {
 .single-product {
   padding: 10px;
   transition: 0.6s;
-  margin-left: 40px;
   box-shadow: 5px 6px 7px grey;
   border-radius: 10px;
+  height: 600px;
+  width: auto;
   
 }
 .single-product:hover {
@@ -42,16 +34,7 @@ body {
   width: 150px;
   height: 150px;
 }
-/* product title  */
-.title-fix{
-  color: rgb(56, 139, 248);
-  font-weight: bolder;
-}
-/* rating part */
-.rating{
-  color: brown;
-  font-weight: bold;
-}
+
 
 .cart {
   width: 350px;
